@@ -10,7 +10,7 @@ namespace Breadthfirstsearch
     {
         static void Main(string[] args)
         {
-            var hash_table = new Hashtable();
+            var hash_table = new Hashtable(); /// Лучше использовать Dictionary, чтобы определить тип value.
             hash_table.Add("Вы", new string[] { "Алиса", "Боб", "Клэр" });
             hash_table.Add("Боб", new string[] { "Анунж", "Пегги" });
             hash_table.Add("Алиса", new string[] { "Пегги" });
